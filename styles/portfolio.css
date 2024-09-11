@@ -29,13 +29,14 @@ body {
 .header {
     background-color: #FFF8F3;
 }
+
 /* navber section */
 nav {
     margin: 0 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .nav-title {
@@ -62,4 +63,11 @@ nav a {
 /* banner */
 .banner {
     padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .profile-pic {
+    width: 584px;
 }
