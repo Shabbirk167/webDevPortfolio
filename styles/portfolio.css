@@ -2,6 +2,7 @@
 * {
     margin: 0;
 
+
 }
 
 /* common shared styles */
@@ -123,10 +124,24 @@ nav a {
 
 
 /* Main Section Styles */
+/* main section */
+main {
+    /* max-width: 1140px;
+    margin: 0 auto; */
+}
 /* about section */
 .about {
     margin: 130px 230px;
     padding: 130px;
     border-radius: 10px;
     background-color: rgb(255, 248, 243);
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    /* margin-right: 50px; */
+}
+
+.about-info {
+    text-align: center;
 }
