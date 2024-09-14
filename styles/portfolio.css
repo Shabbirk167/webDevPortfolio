@@ -129,6 +129,7 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 main section {
     margin: 130px;
 }
@@ -173,7 +174,37 @@ main section {
 /* A summary of My Resume */
 
 /* resume container */
+.resume-column-title {
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    font-weight: 700;
+}
+
 .resume-container {
     display: flex;
     justify-content: space-around;
+    gap: 70px;
+}
+
+.resume-item-institution {
+    padding: 15px 0;
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-itme-info {
+    color: rgb(117, 117, 117);
+
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.resume-container hr {
+    margin: 30px 0;
+    border: 1px solid #d1d1d1;
+}
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
 }
